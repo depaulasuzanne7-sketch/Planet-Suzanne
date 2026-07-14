@@ -1,0 +1,5 @@
+import PageIntro from "@/components/PageIntro";
+export const metadata = { title: "Explorer Kit" };
+export default function ExplorerKitPage() {
+  return <PageIntro eyebrow="Founder Collection" title="A keepsake for the journey." text="The Founder Explorer Kit will bring together the passport, numbered card, canvas pouch, sticker, welcome letter, Explorer’s Oath, and hidden Carpe Diem message in one tactile adventure package." />;
+}
